@@ -1,10 +1,4 @@
-'''import streamlit as sd
 
-sd.image('Screenshot 2024-07-25 at 17.28.20.png')
-sd.sidebar.success('Education')
-with sd.expander('See Education'):
-    sd.write('Finished High School in 2023')
-    sd.image('Screenshot 2024-07-24 at 19.46.27.png')'''
 
 
 
@@ -26,7 +20,7 @@ if sd.button('Display Data'):
     display_message("Here is the data for my education, including detailed information on various", delay=0.1)
     display_message("subjects, grades, and overall academic performance.",delay=0.1)
 
-    sd.image('Screenshot 2024-07-25 at 17.28.20.png')
+    sd.image('streamlitPractice/Screenshot 2024-07-25 at 17.28.20.png')
     sd.sidebar.success('Education')
     with sd.expander('See Education'):
         sd.write('Finished High School in 2023')
@@ -38,5 +32,5 @@ if sd.button('Display Data'):
             time.sleep(0.1)
             my_bar.progress(percent_complete + 1, text=progress_text)
         my_bar.empty()
-        sd.image('Screenshot 2024-07-24 at 19.46.27.png')
+        sd.image('streamlitPractice/Screenshot 2024-07-24 at 19.46.27.png')
 
